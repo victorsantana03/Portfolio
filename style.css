@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    background-color: #323946;
+    margin: 0 100px;
+}
+
+
+/* -- HEADER -- */
+header{
+    padding: 20px 0;
+    font-weight: 700;
+    font-family: "Orbitron", sans-serif;
+}
+
+header .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo .name{
+    color: #ffffff;
+    text-shadow: 0 0 1rem;
+}
+
+.cyan{
+    color: #0ef;
+}
+
+.menu ul{
+    display: flex;
+    gap: 80px;
+}
+
+header ul li a{
+    color: #ffffff;
+}
+
+.menu .home{
+    color:#0ef;
+}
+/* -- HEADER -- */
+
+
+/* -- HOME -- */
+main{
+    font-family: "Poppins", sans-serif;
+}
+
+.section-top{
+    padding-top: 60px;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-top .flex{
+    align-items: center;
+}
+
+.txt-top-site{
+    width: 50%;
+    
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.txt .career{
+    background-color: #fff;
+    width: 360px;
+    text-align: center;
+    border-radius:100px;
+    text-shadow: 0 0 .1rem;
+}
+
+.txt .career h2{
+    color: #0ef;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    
+    
+}
+
+.txt h1{
+    color: #fff;
+    font-size: 3rem;
+    
+}
+
+.txt p{
+    color: #fff;
+    letter-spacing: .1rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+    
+}
+   
+
+/* -- ICONES -- */
+.icons{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;    
+}
+
+.icons p{
+    font-weight: bold;
+    color: #fff;
+}
+
+.icons ul{
+    display: flex;
+    padding-left: 20px;
+    gap: 10px;
+}
+
+.icons ul li a{
+    color: #0ef;
+    font-size: 1.7rem;
+    width: 80px;
+    transition: 0.8s;
+}
+
+.icons ul li a:hover{
+    opacity: 0.7;
+}
+/* -- ICONES -- */
+
+
+.img-top-site img{
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 20px;
+    }
+}
+
+/* -- HOME -- */
