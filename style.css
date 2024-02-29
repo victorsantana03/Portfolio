@@ -165,3 +165,23 @@ main{
 }
 
 /* -- HOME -- */
+
+/* -- ABOUT -- */
+
+.section-about{
+    height: 100vh;
+}
+
+.img-about img{
+    width: 400px;
+}
+
+.section-about .flex{
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.txt-about{
+    border: solid 2px;
+    width: 50%;
+}
