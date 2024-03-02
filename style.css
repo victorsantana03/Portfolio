@@ -28,6 +28,13 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;    
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* -- GERAL -- */
@@ -77,12 +84,6 @@ main{
 }
 
 
-
-.flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
 .txt-top-site{
     width: 50%;
@@ -171,6 +172,10 @@ main{
 
 /* -- ABOUT -- */
 
+.section-about{
+    box-shadow: 0 0 40px 10px rgba(0, 238, 255, 0.137);
+}
+
 .img-about img{
     width: 400px;
     border-radius: 50%;
@@ -232,3 +237,94 @@ main{
     cursor: pointer;
     text-shadow: 0 0 .1rem;    
 }
+
+/* -- ABOUT -- */
+
+
+/* -- PROJECTS -- */
+
+    .section-projects .flex{
+        gap: 20px;
+        padding-top: 3rem;
+    }
+
+    .section-projects h1{
+        text-align: center;
+        color: #fff;
+        font-family: "Orbitron", sans-serif;
+        font-size: 1.8rem;
+        font-weight: bold;
+
+    }
+
+    .projects{
+        width: 360px;
+        height: 450px;
+        border: 1px solid rgba(0, 238, 255, 0.171);
+        box-shadow: #0ef 0 0 .2rem;
+
+        border-radius: 15px;
+    }
+
+    .projects img{
+        width: 100%;
+        height: 13rem;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .project-content{
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: .8rem;
+        
+    }
+
+    .project-content .tags{
+        display: flex;
+        gap: .7rem;
+        padding-top: 1rem;
+    }
+
+    .projects .project-content h2{
+        color: #fff;
+        font-family: "Orbitron", sans-serif;
+    }
+    .projects .project-content p{
+        color: #fff;
+    }
+
+    .projects .btn{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding-top: .7rem;
+    }
+
+    .projects .btn button{
+        padding: .5rem;
+        color: #fff;
+        background-color: rgba(0, 238, 255, 0.534);
+        border: none;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        border-radius: 10px;
+        text-shadow: 0 0 1px;
+        cursor: pointer;
+        box-shadow: 1px 1px 10px 1px rgba(0, 238, 255, 0.212);
+        transition: 0.5s;
+    }
+
+    .projects .btn button:hover{
+        opacity: 0.7;
+    }
+
+
+    .projects .btn i{
+        color: #0ef;
+        font-size: 2rem;
+        cursor: pointer;
+        text-shadow: 0 0 .1rem;
+    }
+/* -- PROJECTS -- */
