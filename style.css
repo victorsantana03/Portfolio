@@ -5,33 +5,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    
+
 }
 
-body{
+body {
     background-color: #323946;
     height: 100vh;
 }
 
-.interface{
+.interface {
     max-width: 1280px;
     margin: 0 auto;
 }
 
-section{   
+section {
     min-height: 100vh;
     display: flex;
-    align-items: center;    
-    
+    align-items: center;
+
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -41,61 +41,62 @@ section{
 
 
 /* -- HEADER -- */
-header{
-    margin-top: 20px ;
+header {
+    margin-top: 20px;
     font-weight: 700;
     font-family: "Orbitron", sans-serif;
 }
 
-header .interface{
+header .interface {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-.logo .name{
+.logo .name {
     color: #ffffff;
     text-shadow: 0 0 1rem;
 }
 
-.cyan{
+.cyan {
     color: #0ef;
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     gap: 80px;
     font-size: 18px;
 }
 
-header ul li a{
+header ul li a {
     color: #ffffff;
 }
 
-.menu .home{
-    color:#0ef;
+.menu .home {
+    color: #0ef;
 }
+
 /* -- HEADER -- */
 
 
 /* -- HOME -- */
-main{
+main {
     font-family: "Poppins", sans-serif;
 }
 
 
 
-.txt-top-site{
+.txt-top-site {
     width: 50%;
 }
 
-.txt{
+.txt {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.txt .career h2{
+.txt .career h2 {
     color: #0ef;
     font-size: 1.5rem;
     font-weight: bold;
@@ -104,65 +105,67 @@ main{
     font-family: "Orbitron", sans-serif;
 }
 
-.txt h1{
+.txt h1 {
     color: #fff;
     font-size: 3rem;
-    
+
 }
 
-.txt p{
+.txt p {
     color: #fff;
     letter-spacing: .1rem;
     line-height: 1.8rem;
     font-size: 1.2rem;
-    
+
 }
-   
+
 
 /* -- ICONES -- */
-.icons{
+.icons {
     display: flex;
     padding-top: 10px;
-    align-items: center;  
-    gap: 1rem;  
+    align-items: center;
+    gap: 1rem;
 }
 
-.icons p{
+.icons p {
     font-weight: bold;
     color: #fff;
 
 }
 
-.icons ul{
+.icons ul {
     display: flex;
     gap: 10px;
 }
 
-.icons ul li a{
+.icons ul li a {
     color: #0ef;
     font-size: 1.7rem;
     width: 80px;
     transition: 0.8s;
 }
 
-.icons ul li a:hover{
+.icons ul li a:hover {
     opacity: 0.7;
 }
+
 /* -- ICONES -- */
 
-.img-top-site img{
+.img-top-site img {
     width: 370px;
     border-radius: 50%;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    
+
 }
 
-@keyframes flutuar{
-    0%{
+@keyframes flutuar {
+    0% {
         top: 0;
     }
-    100%{
+
+    100% {
         top: 30px;
     }
 }
@@ -172,23 +175,23 @@ main{
 
 /* -- ABOUT -- */
 
-.section-about{
+.section-about {
     box-shadow: 0 0 40px 10px rgba(0, 238, 255, 0.137);
 }
 
-.img-about img{
+.img-about img {
     width: 400px;
     border-radius: 50%;
 }
 
 
 
-.txt-about{
+.txt-about {
     box-shadow: #0ef 0 0 1rem;
     border-radius: 10px;
     width: 50%;
     height: 400px;
-    padding: 1rem 2rem; 
+    padding: 1rem 2rem;
     letter-spacing: .1rem;
     display: flex;
     flex-direction: column;
@@ -196,23 +199,24 @@ main{
     color: #fff;
 }
 
-.txt-about h3{
+.txt-about h3 {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: "Orbitron", sans-serif;
 }
 
-.txt-about h1{
+.txt-about h1 {
     color: #0ef;
     font-size: 3rem;
 }
 
-.txt-about p{
+.txt-about p {
     letter-spacing: .1rem;
     line-height: 1.8rem;
     font-size: 1.2rem;
 }
-.skills{
+
+.skills {
     display: flex;
     gap: 2.5rem;
     justify-content: center;
@@ -220,22 +224,22 @@ main{
     padding-top: 4rem;
 }
 
-.skills h1{
+.skills h1 {
     color: #fff;
     font-family: "Orbitron", sans-serif;
     font-size: 2rem;
 }
 
-.skills ul{
+.skills ul {
     display: flex;
     gap: 2rem;
 }
 
-.skills ul li i{
+.skills ul li i {
     color: #0ef;
     font-size: 3rem;
     cursor: pointer;
-    text-shadow: 0 0 .1rem;    
+    text-shadow: 0 0 .1rem;
 }
 
 /* -- ABOUT -- */
@@ -243,88 +247,199 @@ main{
 
 /* -- PROJECTS -- */
 
-    .section-projects .flex{
-        gap: 20px;
-        padding-top: 3rem;
-    }
+.section-projects .flex {
+    gap: 20px;
+    padding-top: 3rem;
+}
 
-    .section-projects h1{
-        text-align: center;
-        color: #fff;
-        font-family: "Orbitron", sans-serif;
-        font-size: 1.8rem;
-        font-weight: bold;
+.section-projects h1 {
+    text-align: center;
+    color: #fff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
 
-    }
+}
 
-    .projects{
-        width: 360px;
-        height: 450px;
-        border: 1px solid rgba(0, 238, 255, 0.171);
-        box-shadow: #0ef 0 0 .2rem;
+.projects {
+    width: 360px;
+    height: 450px;
+    border: 1px solid rgba(0, 238, 255, 0.171);
+    box-shadow: #0ef 0 0 .2rem;
 
-        border-radius: 15px;
-    }
+    border-radius: 15px;
+}
 
-    .projects img{
-        width: 100%;
-        height: 13rem;
-        border-radius: 15px 15px 0 0;
-    }
+.projects img {
+    width: 100%;
+    height: 13rem;
+    border-radius: 15px 15px 0 0;
+}
 
-    .project-content{
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        gap: .8rem;
-        
-    }
+.project-content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
 
-    .project-content .tags{
-        display: flex;
-        gap: .7rem;
-        padding-top: 1rem;
-    }
+}
 
-    .projects .project-content h2{
-        color: #fff;
-        font-family: "Orbitron", sans-serif;
-    }
-    .projects .project-content p{
-        color: #fff;
-    }
+.project-content .tags {
+    display: flex;
+    gap: .7rem;
+    padding-top: 1rem;
+}
 
-    .projects .btn{
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        padding-top: .7rem;
-    }
+.projects .project-content h2 {
+    color: #fff;
+    font-family: "Orbitron", sans-serif;
+}
 
-    .projects .btn button{
-        padding: .5rem;
-        color: #fff;
-        background-color: rgba(0, 238, 255, 0.534);
-        border: none;
-        font-size: 1rem;
-        font-weight: bold;
-        font-family: "Poppins", sans-serif;
-        border-radius: 10px;
-        text-shadow: 0 0 1px;
-        cursor: pointer;
-        box-shadow: 1px 1px 10px 1px rgba(0, 238, 255, 0.212);
-        transition: 0.5s;
-    }
+.projects .project-content p {
+    color: #fff;
+}
 
-    .projects .btn button:hover{
-        opacity: 0.7;
-    }
+.projects .btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: .7rem;
+}
+
+.projects .btn button {
+    padding: .5rem;
+    color: #fff;
+    background-color: rgba(0, 238, 255, 0.534);
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    text-shadow: 0 0 1px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgba(0, 238, 255, 0.212);
+    transition: 0.5s;
+}
+
+.projects .btn button:hover {
+    opacity: 0.7;
+}
 
 
-    .projects .btn i{
-        color: #0ef;
-        font-size: 2rem;
-        cursor: pointer;
-        text-shadow: 0 0 .1rem;
-    }
+.projects .btn i {
+    color: #0ef;
+    font-size: 2rem;
+    cursor: pointer;
+    text-shadow: 0 0 .1rem;
+}
+
 /* -- PROJECTS -- */
+
+
+/* -- CONTACT -- */
+
+.section-contact .container .contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.section-contact .container .contact h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+}
+
+.section-contact .container .contact ul {
+    display: flex;
+    gap: 1rem;
+}
+
+.section-contact .container .contact ul li a {
+    color: #0ef;
+    font-size: 2rem;
+    cursor: pointer;
+    text-shadow: 0 0 .1rem;
+}
+
+.section-contact .container {
+    width: 600px;
+
+}
+
+.section-contact .container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 600px;
+    padding-top: 1rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.section-contact .container form .input-flex {
+    display: flex;
+    width: 600px;
+    gap: 1rem;
+}
+
+.section-contact .container form input {
+    width: 230px;
+    height: 3rem;
+    
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px 1px rgba(0, 238, 255, 0.212);
+    border-radius: 10px;
+    color: #fff;
+}
+
+.section-contact .container form input:hover {
+    opacity: 0.7;
+}
+
+.section-contact .container form textarea {
+    width: 600px;
+    resize: none;
+    background-color: transparent;
+    box-shadow: 1px 1px 10px 1px rgba(0, 238, 255, 0.212);
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.section-contact .container form .btn button {
+    padding: .5rem;
+    color: #fff;
+    background-color: rgba(0, 238, 255, 0.534);
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgba(0, 238, 255, 0.212);
+    transition: 0.5s;
+}
+
+.section-contact .container form .btn button:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+
+/* -- CONTACT -- */
