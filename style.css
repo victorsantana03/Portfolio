@@ -70,6 +70,22 @@ header .interface {
 
 header ul li a {
     color: #ffffff;
+    position: relative;
+}
+
+header ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #0ef;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+header ul li a:hover::after{
+    width: 100%;
 }
 
 .menu .home {
@@ -465,3 +481,25 @@ footer .name h1{
 }
 
 /* -- FOOTER -- */
+
+
+@media screen and (max-width: 1020px){
+
+    /* -- CLASSES GERAIS -- */
+   
+
+    .interface {
+        max-width: none;
+        margin: none;
+    }
+
+    /* -- CLASSES GERAIS -- */
+    
+    /* -- HEADER -- */
+    
+    /* -- HEADER -- */
+
+    /* -- HOME -- */
+    
+    /* -- HOME -- */
+}
