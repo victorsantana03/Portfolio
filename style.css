@@ -466,6 +466,10 @@ footer .name h1{
 @media screen and (max-width: 600px){
     
     /* -- ABOUT -- */
+     .section-about .interface{
+        padding: 3rem 0 3rem 0;
+    } 
+    
     .section-about .txt-about h1{
         font-size: 1.5rem;
     }
