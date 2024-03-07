@@ -542,6 +542,7 @@ footer .name h1{
    
     html{
         font-size: 70%;
+        overflow-x: hidden;
     }
 
     /* -- CLASSES GERAIS -- */
