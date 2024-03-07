@@ -483,6 +483,10 @@ footer .name h1{
     .skills{
         flex-direction: column;
     }
+    
+    .skills ul {
+        gap: 1.3rem;
+    }
     /* -- ABOUT -- */
 }
 
@@ -577,6 +581,10 @@ footer .name h1{
 
     .section-projects .interface{
         padding-top: 3rem;
+    }
+
+    .section-projects .projects{
+        width: 300px;
     }
 
     /* -- PROJECTS-- */
