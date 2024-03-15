@@ -49,7 +49,7 @@
                                 <h2>// Front-End Developer</h2>
                             </div>
                             <h1>Victor Alves Santana</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, asperiores. Impedit distinctio eum quibusdam quia rerum, voluptate pariatur itaque omnis neque illum aut, provident earum? Sit enim dignissimos officiis obcaecati?</p>
+                            <p>Olá, seja bem-vindo(a) ao meu portfólio! Fique a vontade para me conhecer melhor.</p>
                         </div>
                         <div class="icons">
                             <p>Minhas redes:</p>
@@ -78,9 +78,12 @@
                     <div class="txt-about">
                         <h3>Quem sou eu?</h3>
                         <h1>Victor Alves Santana</h1>
-                        <p> - Olá, me chamo Victor 👋🏻. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                            expedita fugiat incidunt numquam assumenda accusamus voluptas, quibusdam possimus vero
-                            cumque praesentium facilis debitis recusandae, quod quasi, iste nam repudiandae. Non?
+                        <p> - Olá, me chamo Victor 👋🏻. Desenvolvedor Front-End e estudante de Análise e Desenvolvimento de Sistemas
+                            na Instituição de Ensino Eniac.
+                            Venho me desenvolvendo na área de programação e adquirindo skills que julgo importantes para seguir a carreira.
+                            Tenho me aprofundado em tecnologias como React, Node, API's, Javascript e linguagens BackEnd. Desenvolvimento Web é o meu foco.
+                            Estou sempre disposto a contribuir para projetos desafiadores e cooperar com equipes dinâmicas.
+                            Entre em contato comigo e vamos construir algo juntos!
                         </p>
                     </div>
                 </div>
@@ -103,21 +106,39 @@
 
         <section id="projects" class="section-projects">
             <div class="interface">
-                <h1> <span class="cyan">// </span>Principais <span class="cyan">Projetos</span></h1>
+                <h1> <span class="cyan">// </span>Alguns <span class="cyan">Projetos</span></h1>
                 <div class="flex">
+
                     <div class="projects">
-                        <img src="https://img.quizur.com/f/img5f0c80e0bd9d08.31973740.jpg?lastEdited=1594654954" alt="">
+                        <img src="./img/clima-img.jpg" alt="">
                         <div class="project-content">
-                            <h2>Nome do projeto</h2>
-                            <p>Descrição do projeto</p>
+                            <h2>Previsão do Tempo</h2>
+                            <p>Este App consome uma API que exibe o clima de qualquer região escolhida pelo usuário.</p>
                             <div class="tags">
-                                <p>Html</p>
-                                <p>CSS</p>
-                                <p>Javascript</p>
+                                <p class="hang-tags">Html</p>
+                                <p class="hang-tags" >CSS</p>
+                                <p class="hang-tags">Javascript</p>
                             </div>
                             <div class="btn">
-                                <a href="#"><button>Ver Projeto</button></a>
-                                <a href="#"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://victorsantana03.github.io/previsao_tempo/"><button>Ver Projeto</button></a>
+                                <a href="https://github.com/victorsantana03/previsao_tempo"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects">
+                        <img src="./img/pokedex-img.jpg" alt="">
+                        <div class="project-content">
+                            <h2>Pokédex</h2>
+                            <p>Um layout de uma Pokédex feita com Javascript para implementar o modo escuro da página.</p>
+                            <div class="tags">
+                                <p class="hang-tags">Html</p>
+                                <p class="hang-tags">CSS</p>
+                                <p class="hang-tags">Javascript</p>
+                            </div>
+                            <div class="btn">
+                                <a href="https://victorsantana03.github.io/Pokedex/"><button>Ver Projeto</button></a>
+                                <a href="https://github.com/victorsantana03/Pokedex"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
                     </div>
@@ -125,29 +146,13 @@
                     <div class="projects">
                         <img src="https://img.quizur.com/f/img5f0c80e0bd9d08.31973740.jpg?lastEdited=1594654954" alt="">
                         <div class="project-content">
-                            <h2>Nome do projeto</h2>
-                            <p>Descrição do projeto</p>
+                            <h2>Lista De Tarefas</h2>
+                            <p>Uma lista de tarefas dinâmica feita com React utilizando o Vite para o desenvolvimento. </p>
                             <div class="tags">
-                                <p>Html</p>
-                                <p>CSS</p>
-                                <p>Javascript</p>
-                            </div>
-                            <div class="btn">
-                                <a href="#"><button>Ver Projeto</button></a>
-                                <a href="#"><i class="fa-brands fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="projects">
-                        <img src="https://img.quizur.com/f/img5f0c80e0bd9d08.31973740.jpg?lastEdited=1594654954" alt="">
-                        <div class="project-content">
-                            <h2>Nome do projeto</h2>
-                            <p>Descrição do projeto</p>
-                            <div class="tags">
-                                <p>Html</p>
-                                <p>CSS</p>
-                                <p>Javascript</p>
+                                <p class="hang-tags">React</p>
+                                <p class="hang-tags">Typescript</p>
+                                <p class="hang-tags">TailwindCSS</p>
+                                <p class="hang-tags">Node</p>
                             </div>
                             <div class="btn">
                                 <a href="#"><button>Ver Projeto</button></a>
@@ -175,21 +180,22 @@
 
                     </div>
 
-                    <form>
+                    <form name="contatos" method="post" netlify>
                         <div class="input-flex">
-                            <input type="text" placeholder="Nome Completo" id="name" required>
-                            <input type="email" placeholder="Email" id="email" required>
+                            <input type="text" placeholder="Nome Completo" id="name" name="nome" required>
+                            <input type="email" placeholder="Email" id="email" name="email" required>
                         </div>
 
                         <div class="input-flex">
-                            <input type="number" placeholder="Seu celular" id="number">
-                            <input type="text" placeholder="Assunto" id="subject">
+                            <input type="number" placeholder="Seu celular" name="telefone" id="number">
+                            <input type="text" placeholder="Assunto" name="assunto" id="subject">
                         </div>
 
                         <div class="textarea">
-                            <textarea name="" placeholder="Sua Mensagem" id="message" cols="30" rows="10"
+                            <textarea name="mensagem" placeholder="Sua Mensagem" id="message" cols="30" rows="10"
                                 required></textarea>
                         </div>
+
                         <div class="btn">
                             <button type="submit">Enviar Mensagem </button>
                         </div>
